@@ -3,8 +3,8 @@ from Crypto.Util.Padding import pad, unpad
 from Crypto.Random import get_random_bytes
 
 # Input string
-plaintext = "imanmukhlisinima"
-key = b'SamathaBhavana12'
+plaintext = "Sabble Satta Bhavantu Sukhitatta"
+key = b'imanmukhlisinima'
 
 # Convert plaintext ke bytes dan pad ke blok 16 byte
 data = plaintext.encode('utf-8')
